@@ -6,7 +6,7 @@ BLUE='\033[1;35m'
 NC='\033[0m'
 success=0
 fail=0
-yum update -y && yum install wget -y
+yum update -N && yum install wget -N
 ###########################################################################################################################
 ##Category 1.1 Initial Setup - Filesystem Configuration
 echo
